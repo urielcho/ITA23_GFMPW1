@@ -1,30 +1,94 @@
 {
-	"TOP_SOURCE": "user_project_wrapper",
-	"TOP_LAYOUT": "$TOP_SOURCE",
-	"EXTRACT_FLATGLOB": [
-		""
-	],
-	"EXTRACT_ABSTRACT": [
-		"*__fill_*",
-		"*__fakediode_*",
-		"*__tapvpwrvgnd_*"
-	],
-	"LVS_FLATTEN": [
-		""
-	],
-	"LVS_NOFLATTEN": [
-		""
-	],
-	"LVS_IGNORE": [
-		""
-	],
-	"LVS_SPICE_FILES": [
-		"$PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice",
-		"$PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice"
-	],
-	"LVS_VERILOG_FILES": [
-		"$UPRJ_ROOT/verilog/gl/user_proj_example.v",
-		"$UPRJ_ROOT/verilog/gl/$TOP_SOURCE.v"
-	],
-	"LAYOUT_FILE": "$UPRJ_ROOT/gds/$TOP_LAYOUT.gds"
+    "TOP_SOURCE": "user_project_wrapper",
+    "TOP_LAYOUT": "$TOP_SOURCE",
+    "EXTRACT_FLATGLOB": [
+        ""
+    ],
+    "EXTRACT_ABSTRACT": [
+        "*__fill_*",
+        "*__fakediode_*",
+        "*__tapvpwrvgnd_*"
+    ],
+    "LVS_FLATTEN": [
+        ""
+    ],
+    "LVS_NOFLATTEN": [
+        ""
+    ],
+    "LVS_IGNORE": [
+        ""
+    ],
+    "LVS_SPICE_FILES": [
+        "$PDK_ROOT/$PDK/libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice"
+    ],
+    "LVS_VERILOG_FILES": [
+        "$UPRJ_ROOT/verilog/gl/user_proj_example.v",
+        "$UPRJ_ROOT/verilog/gl/$TOP_SOURCE.v",
+        "$UPRJ_ROOT/verilog/gl/ita.v",
+"$UPRJ_ROOT/verilog/gl/ita1.v",
+"$UPRJ_ROOT/verilog/gl/ita2.v",
+"$UPRJ_ROOT/verilog/gl/ita3.v",
+"$UPRJ_ROOT/verilog/gl/ita4.v",
+"$UPRJ_ROOT/verilog/gl/ita5.v",
+"$UPRJ_ROOT/verilog/gl/ita6.v",
+"$UPRJ_ROOT/verilog/gl/ita7.v",
+"$UPRJ_ROOT/verilog/gl/ita8.v",
+"$UPRJ_ROOT/verilog/gl/ita9.v",
+"$UPRJ_ROOT/verilog/gl/ita10.v",
+"$UPRJ_ROOT/verilog/gl/ita11.v",
+"$UPRJ_ROOT/verilog/gl/ita12.v",
+"$UPRJ_ROOT/verilog/gl/ita13.v",
+"$UPRJ_ROOT/verilog/gl/ita14.v",
+"$UPRJ_ROOT/verilog/gl/ita15.v",
+"$UPRJ_ROOT/verilog/gl/ita16.v",
+"$UPRJ_ROOT/verilog/gl/ita17.v",
+"$UPRJ_ROOT/verilog/gl/ita18.v",
+"$UPRJ_ROOT/verilog/gl/ita19.v",
+"$UPRJ_ROOT/verilog/gl/ita20.v",
+"$UPRJ_ROOT/verilog/gl/ita21.v",
+"$UPRJ_ROOT/verilog/gl/ita22.v",
+"$UPRJ_ROOT/verilog/gl/ita23.v",
+"$UPRJ_ROOT/verilog/gl/ita24.v",
+"$UPRJ_ROOT/verilog/gl/ita25.v",
+"$UPRJ_ROOT/verilog/gl/ita26.v",
+"$UPRJ_ROOT/verilog/gl/ita27.v",
+"$UPRJ_ROOT/verilog/gl/ita28.v",
+"$UPRJ_ROOT/verilog/gl/ita29.v",
+"$UPRJ_ROOT/verilog/gl/ita30.v",
+"$UPRJ_ROOT/verilog/gl/ita31.v",
+"$UPRJ_ROOT/verilog/gl/ita32.v",
+"$UPRJ_ROOT/verilog/gl/ita33.v",
+"$UPRJ_ROOT/verilog/gl/ita34.v",
+"$UPRJ_ROOT/verilog/gl/ita35.v",
+"$UPRJ_ROOT/verilog/gl/ita36.v",
+"$UPRJ_ROOT/verilog/gl/ita37.v",
+"$UPRJ_ROOT/verilog/gl/ita38.v",
+"$UPRJ_ROOT/verilog/gl/ita39.v",
+"$UPRJ_ROOT/verilog/gl/ita40.v",
+"$UPRJ_ROOT/verilog/gl/ita41.v",
+"$UPRJ_ROOT/verilog/gl/ita42.v",
+"$UPRJ_ROOT/verilog/gl/ita43.v",
+"$UPRJ_ROOT/verilog/gl/ita44.v",
+"$UPRJ_ROOT/verilog/gl/ita45.v",
+"$UPRJ_ROOT/verilog/gl/ita46.v",
+"$UPRJ_ROOT/verilog/gl/ita47.v",
+"$UPRJ_ROOT/verilog/gl/ita48.v",
+"$UPRJ_ROOT/verilog/gl/ita49.v",
+"$UPRJ_ROOT/verilog/gl/ita50.v",
+"$UPRJ_ROOT/verilog/gl/ita51.v",
+"$UPRJ_ROOT/verilog/gl/ita52.v",
+"$UPRJ_ROOT/verilog/gl/ita53.v",
+"$UPRJ_ROOT/verilog/gl/ita54.v",
+"$UPRJ_ROOT/verilog/gl/ita55.v",
+"$UPRJ_ROOT/verilog/gl/ita56.v",
+"$UPRJ_ROOT/verilog/gl/ita57.v",
+"$UPRJ_ROOT/verilog/gl/ita58.v",
+"$UPRJ_ROOT/verilog/gl/ita59.v",
+"$UPRJ_ROOT/verilog/gl/ita60.v",
+"$UPRJ_ROOT/verilog/gl/ita61.v",
+"$UPRJ_ROOT/verilog/gl/ita62.v",
+"$UPRJ_ROOT/verilog/gl/ita63.v",
+"$UPRJ_ROOT/verilog/gl/ita64.v"
+    ],
+    "LAYOUT_FILE": "$UPRJ_ROOT/gds/$TOP_LAYOUT.gds"
 }
